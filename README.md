@@ -1,72 +1,85 @@
 # 🔄 SkillSwap AI — Skill Exchange Platform
 
-A multi-page web application concept where users can **teach what they know and learn what they don't** — a peer-to-peer skill exchange platform. Built with pure HTML and CSS, no frameworks or JavaScript dependencies.
+> A platform where people teach what they know and learn what they don't — no money required.
 
 ---
 
-## 🌐 Live Pages
+## 🚀 Project Overview
 
-| Page | File | Purpose |
-|------|------|---------|
-| Home / Landing | `index.html` | Platform overview and value proposition |
-| Find a Skill | `find.html` | Browse skills available to learn |
-| Teach a Skill | `teach.html` | List your skills to offer |
-| Login | `login.html` | User login form |
-| Register | `register.html` | New user registration |
-| Styles | `style.css` | Shared stylesheet across all pages |
+SkillSwap AI is a multi-page web platform concept that enables peer-to-peer skill exchange. Instead of paying for courses, users offer a skill they're good at in exchange for a skill they want to learn. The platform includes pages for registration, login, browsing available skills, and listing skills to teach — all built with clean, responsive HTML/CSS.
 
 ---
 
-## ✨ Features
+## 🎯 Problem It Solves
 
-- Clean, responsive multi-page layout
-- Consistent design system with shared CSS
-- Forms for user registration and login
-- Navigation between all pages
-- No JavaScript — pure HTML/CSS front-end
+Education and skill development are expensive. Not everyone can afford tutors or online courses. SkillSwap AI addresses this by creating a **barter-based learning ecosystem** where anyone can trade knowledge — a developer teaches Python in exchange for graphic design, a designer teaches Figma in exchange for Excel. The AI component (planned) would intelligently match users based on their skill profiles.
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **HTML5** — Semantic structure
-- **CSS3** — Custom styling, layout, responsiveness
+| Technology | Purpose |
+|---|---|
+| HTML5 | Page structure and content |
+| CSS3 | Styling, layout, and responsive design |
+| (No JavaScript — frontend only) | Static UI prototype |
+
+### Pages
+
+| File | Description |
+|---|---|
+| `index.html` | Landing / Home page |
+| `register.html` | User registration form |
+| `login.html` | User login page |
+| `find.html` | Browse available skills to learn |
+| `teach.html` | List a skill you can teach |
+| `style.css` | Shared stylesheet for all pages |
 
 ---
 
-## ▶️ How to Run
+## 📸 Screenshots
 
-No server or installation needed. Simply open any HTML file in your browser:
+> *(Add screenshots of each page here — home, register, find skills, teach page.)*
 
+---
+
+## ⚙️ How to Run
+
+No installation or server required — this is a static frontend project.
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/Nidazah/SkillSwap-AI-.git
+cd SkillSwap-AI-
+
+# 2. Open the homepage in your browser
+# On Windows:
+start index.html
+
+# On Mac:
+open index.html
+
+# Or just double-click index.html in your file explorer
 ```
-Double-click index.html
-```
 
-Or use Live Server in VS Code for auto-reload during development.
+Navigate between pages using the links in the site's navigation bar.
 
 ---
 
-## 📌 Project Status
+## 📌 Future Improvements
 
-> **Front-end only** — This is a UI prototype. Backend functionality (authentication, database, real skill matching) is planned as a future enhancement.
-
-**Planned upgrades:**
-- JavaScript for dynamic skill matching
-- Backend with Python/Flask or Node.js
-- Database for user profiles and skills
-- AI-powered skill recommendation engine
-
----
-
-## 🎯 What This Project Demonstrates
-
-- Multi-page web application structure
-- Consistent UI design with a shared stylesheet
-- HTML form design (login, register, skill submission)
-- Clean navigation and page flow
+- [ ] Add JavaScript for form validation and interactive UI
+- [ ] Build a backend (Node.js / Django / Flask) for real user accounts
+- [ ] Implement AI-powered skill matching algorithm
+- [ ] Add a rating/review system for completed skill exchanges
+- [ ] Add a real-time messaging/chat feature between matched users
+- [ ] Deploy to a live hosting platform (Netlify, Vercel, or Railway)
+- [ ] Add a skill search and filter system on the Find page
+- [ ] Integrate a database (MongoDB / PostgreSQL) to store user profiles and skill listings
 
 ---
 
 ## 👩‍💻 Author
 
-**Nida** — CS Student | Web Developer in Progress | [@Nidazah](https://github.com/Nidazah)
+**Nida** — CS Student & Aspiring AI Engineer  
+[![GitHub](https://img.shields.io/badge/GitHub-Nidazah-181717?logo=github)](https://github.com/Nidazah)
